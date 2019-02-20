@@ -1,0 +1,60 @@
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.App-header {
+    background-color: #5cb85c;
+    height: 150px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.App-title {
+    font-size: 1.5em;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+.App-content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin-bottom: 2rem;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.loader-spinner {
+    display: inline-block;
+    border: .2rem solid #effdf2;
+    border-left: .2rem solid #3BA07D;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    margin-right: .5rem;
+    animation: mini-spin 1.2s linear infinite;
+    animation-name: loader-spin;
+
+}
+
+@keyframes loader-spin {
+    from {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(360deg)
+    }
+
+}
